@@ -1,11 +1,78 @@
-# Sample Snack app
+# 🎮 Tic-Tac-Toe - React Native Game
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+A simple and stylish Tic-Tac-Toe game built with **React Native** using **functional components and hooks**. Play locally on your device, enjoy clean visuals, and reset the board with one tap.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+---
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+## 📱 Screenshots
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+![WhatsApp Image 2025-04-23 at 16 53 00](https://github.com/user-attachments/assets/a95998c6-04cf-469b-bff7-0f84b596c09f)
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+---
+
+## 🚀 Features
+
+- ✅ Single-player local game
+- ✅ Responsive UI for mobile
+- ✅ Winning combination highlight
+- ✅ Reset game functionality
+- ✅ Stylish and modern design
+- ✅ Built using Expo for quick development
+
+---
+
+## 📦 Tech Stack
+
+- **React Native**
+- **Expo CLI**
+- **React Hooks (`useState`, `useEffect`)**
+- No external libraries used – 100% core React Native
+
+---
+
+## 🛠 Installation & Running
+
+1. **Clone the Repository:**
+
+```bash
+git clone https://github.com/pathakjiop/tic-tac-toe
+cd tic-tac-toe
+```
+
+
+### 2. Install Dependencies:
+
+```bash
+npm install
+# or
+yarn
+```
+
+### 3. Start the App:
+
+```bash
+npx expo start
+```
+
+### 4. Play the Game:
+
+- 📱 Use **Expo Go** app on your phone to scan the QR code.
+- 💻 Or press `i` to open in iOS simulator / `a` for Android emulator.
+
+---
+
+## 📁 Folder Structure
+
+```
+tic-tac-toe-react-native/
+├── App.js          # Main game logic and UI
+├── .gitignore
+├── README.md
+├── package.json
+```
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! If you have suggestions for improvements or want to add cool features (like AI opponent, score history, etc.), feel free to open an issue or PR.
