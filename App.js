@@ -30,7 +30,9 @@ const App = () => {
         return newBoard[a];
       }
     }
-    if (newBoard.every(cell => cell)) return 'Draw';
+    if (newBoard.every(cell => cell)) {
+      return 'Draw';
+    }
     return null;
   };
 
@@ -49,7 +51,9 @@ const App = () => {
   }, [board]);
 
   const handlePress = (index) => {
-    if (board[index] || winner) return;
+    if (board[index] || winner) {
+      return;
+    }
 
     const newBoard = [...board];
     newBoard[index] = xTurn ? 'X' : 'O';
